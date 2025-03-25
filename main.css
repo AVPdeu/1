@@ -50,12 +50,12 @@
 
    #hero {
      background: url('../assets/img/pets_banner.png') no-repeat center/cover;
-     color: white;
+     color: rgb(47, 10, 82);
      padding: 100px 20px;
      text-align: center;
    }
    
-   #hero h1 {
+   #hero h1 {ы
      font-size: 2.5rem;
      font-weight: bold;
      margin-bottom: 20px;
