@@ -1,22 +1,89 @@
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif, century gotic;
     src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
          url('../fonts/Roboto-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
-
+ 
   {box-sizing: border-box;
      margin: 0;
      padding: 0;
    }
+
+   body {
+     font-family: 'Roboto', sans-serif;
+     line-height: 1.6;
+     background-color: #f5f8f0;
+     color: #333;
+   }
+
    .container {
      max-width: 1200px;
      margin: 0 auto;
      padding: 0 20px;
    }
+
+   header {
+     background-color: #8CCB5E;
+     padding: 20px 0;
+     text-align: center;
+   }
+   nav ul {
+     list-style: none;
+   }
+   
+   nav ul li {
+     display: inline;
+     margin-right: 20px;
+   }
+   
+   nav ul li a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 1.1rem;
+   }
+   
+   nav ul li a:hover {
+     text-decoration: underline;
+   }
+
+   #hero {
+     background: url('../assets/img/pets_banner.png') no-repeat center/cover;
+     color: white;
+     padding: 100px 20px;
+     text-align: center;
+   }
+   
+   #hero h1 {
+     font-size: 2.5rem;
+     font-weight: bold;
+     margin-bottom: 20px;
+   }
+   
+   #hero .description {
+     font-size: 1.1rem;
+     margin-bottom: 20px;
+   }
+   
+   button {
+     padding: 12px 24px;
+     background-color: #8CCB5E;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: 0.3s ease;
+   }
+   
+   button:hover {
+     background-color: #6aa943;
+   }
+
    section {
-     padding: 60px 0;
+     padding: 60px 20px;
+     background-color: #fff;
+     text-align: center;
    }
    .cards {
      display: flex;
@@ -25,10 +92,10 @@
    }
    
    .card {
-     background-color: #f7f7f7;
+     background-color: #9aec7a;
      padding: 20px;
      border-radius: 10px;
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.321); 
+     box-shadow: 0 4px 8px rgba(58, 110, 60, 0.321); 
      flex: 0 0 45%; 
      margin-bottom: 20px;
    }
@@ -40,6 +107,6 @@
    
    .card p {
      font-size: 1rem;
-     color: #555;
+     color: #342f2f;
    }
   
