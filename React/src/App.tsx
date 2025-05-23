@@ -3,7 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { WelcomeMessage } from './WelcomeMessage'
-import Accordeon from "./components/Accordeon"; 
+import Accordeon from "./components/Accordeon";
+import "./main.css"
 
 function App() {
   const [count, setCount] = useState(0)

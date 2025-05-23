@@ -109,4 +109,20 @@
      font-size: 1rem;
      color: #342f2f;
    }
+   .accordeon-section {
+    margin-top: 40px;
+  }
+  .accordeon-button {
+    margin: 16px 0;
+    cursor: pointer;
+    padding: 8px 16px;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .accordeon-content {
+    padding: 12px 0;
+    border-top: 1px solid #ccc;
+  }
+
   
